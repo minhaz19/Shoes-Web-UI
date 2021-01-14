@@ -1,0 +1,34 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* 
+.size{
+	max-width: 1300px;
+	margin: auto;
+	padding-right:25px;
+    padding-left: 25px; 
+}*/
+.horizental{
+	display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+	justify-content: space-around;
+}
+.vertical{
+	flex-basis: 50%;
+	min-width: 400px;
+}
+.vertical img{
+    padding-bottom: 30px;
+    max-width: 100%;
+}
+span{
+    color: rgba(223, 157, 15, 0.712);
+}
+.panda-card{
+    border: 0;
+}
+.panda-card-footer{
+    border: 0;
+    background-color: white;
+}
